@@ -1,0 +1,8 @@
+folders:
+  - ./:
+      struct:
+        - github/workflows/pre-commit
+        - github/workflows/release-drafter
+        - terraform/apps/environments
+        - terraform/apps/aws-accounts
+        - terraform/apps/init
