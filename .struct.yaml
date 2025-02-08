@@ -3,6 +3,10 @@ folders:
       struct:
         - github/workflows/pre-commit
         - github/workflows/release-drafter
+        - github/workflows/run-struct
         - terraform/apps/environments
         - terraform/apps/aws-accounts
         - terraform/apps/init
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+
